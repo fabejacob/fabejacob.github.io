@@ -25,3 +25,12 @@
         .sidenav a:hover {
             color: #f1f1f1
         }
+.jf-logo a {
+    display: inline-block;
+    text-align: center;
+    background: #F4F4E6;
+    padding: .5em .8em;
+    color: #d3d3d3;
+    letter-spacing: 10px;
+    padding-right: .3em
+}
