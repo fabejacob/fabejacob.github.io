@@ -4,7 +4,7 @@
 
 .sidenav {
     height: 100%;
-    width: 160px;
+    width: 20%;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -17,6 +17,7 @@
     .sidenav a {
         padding: 6px 8px 6px 16px;
         text-decoration: none;
+        text-align: center;
         font-size: 25px;
         color: #818181;
         display: block
@@ -26,11 +27,14 @@
             color: #f1f1f1
         }
 .jf-logo a {
+    width: 80px;
+    height: 80px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
     display: inline-block;
     text-align: center;
-    background: #F4F4E6;
-    padding: .5em .8em;
-    color: #d3d3d3;
-    letter-spacing: 10px;
-    padding-right: .3em
+    background: #818181;
+    padding: 5px;
+    color: #fff;
 }
