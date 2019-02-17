@@ -1,5 +1,5 @@
 ﻿body {
-    font-family: "Lato", sans-serif
+    font-family: 'Gill Sans', sans-serif
 }
 
 .sidenav {
@@ -9,9 +9,9 @@
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #fff;
+    background-color: #111;
     overflow-x: hidden;
-    padding-top: 20px
+    padding-top: 40px
 }
 
     .sidenav a {
@@ -23,18 +23,6 @@
         display: block
     }
 
-        .sidenav a:hover {
-            color: #f1f1f1
-        }
-.jf-logo a {
-    width: 80px;
-    height: 80px;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-    display: inline-block;
-    text-align: center;
-    background: #818181;
-    padding: 5px;
-    color: #fff;
-}
+    .sidenav a:hover {
+        color: #f1f1f1
+     }
