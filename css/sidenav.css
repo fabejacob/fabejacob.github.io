@@ -1,4 +1,7 @@
-﻿
+﻿    main{
+        margin-left: 35%;
+        padding: 0px 10px;
+    }
     .sidenav {
     height: 100%;
     width: 35%;
@@ -12,22 +15,26 @@
     }
 
     .sidenav a {
-        font-family: Arial, Helvetica, sans-serif;
-        padding: 6px 8px 6px 16px;
+        font-family: Noto sans-serif SC, sans-serif;
+        padding-left: 30px;
         text-decoration: none;
         text-align: center;
-        font-size: 30px;
-        color: #818181;
-        display: block
+        font-size: 25px;
+        color: #000000;
+        display: inline;
     }
 
     .sidenav h1 {
-        text-align:center;
-        padding-right: 10px;
-        text-decoration: none;
+        padding: 5px;
+        text-align:left;
         font-size: 50px;
         color: #000000;
-        display: block;
+    }
+    .sidenav article{
+        color: #000000;
+        float: right;
+        padding-left: 10px;
+        font-size: 20px;
     }
     .sidenav a:hover {
         color: #f1f1f1
