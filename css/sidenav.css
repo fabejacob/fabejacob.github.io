@@ -35,11 +35,6 @@
 
     }
 
-    .sidenav section{
-        position: absolute;
-        font-size: 18px;
-        margin: 15%;
-    }
 
     .sidenav a {
         font-family: Noto sans-serif SC, sans-serif;
