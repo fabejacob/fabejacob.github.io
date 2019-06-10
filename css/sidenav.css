@@ -14,7 +14,11 @@
         color: #000000;
         font-size: 18px;
         padding: 30px;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif'
+    }
+    
+    main h1{
+        color: #000000;
+        font-size: 22px;
     }
 
     .sidenav {
@@ -31,12 +35,18 @@
 
     }
 
+    .sidenav section{
+        position: absolute;
+        font-size: 10px;
+        margin: 15%;
+    }
+
     .sidenav a {
         font-family: Noto sans-serif SC, sans-serif;
         padding-left: 30px;
         text-decoration: none;
         text-align: center;
-        font-size: 25px;
+        font-size: 18px;
         color: #000000;
         display: inline;
     }
@@ -44,9 +54,12 @@
     .sidenav h1 {
         padding: 5px;
         text-align:left;
-        font-size: 65px;
+        font-size: 38px;
         color: #000000;
+        margin-left: 25px;
     }
+
+
     .sidenav article{
         color: #000000;
         position: absolute;
@@ -58,13 +71,20 @@
         border-top: 5px solid black;
     }
     .sidenav article a{
-        font-size: 20px;
+        font-size: 15px;
         padding-left: 100px;
         text-decoration: none;
         text-align: center;
-        font-size: 22px;
         color: #000000;
         display: inline;
+    }
+
+    .sidenav p{
+        font-size: 12px;
+        margin-left: 25px;
+        margin-top: 15px;
+        color: #000000;
+
     }
 
     .sidenav a:hover {
@@ -75,7 +95,3 @@
         color: #f1f1f1
      }
 
-     .sidenav lower{
-        position: relative;
-        height: 10%; width: 100%;
-     }
